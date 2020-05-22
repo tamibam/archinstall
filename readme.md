@@ -15,7 +15,7 @@ The script is separated into three stages:
 
 - `<archsetup.sh>` which take care of the rest of installation process.
 
-CAUTION: DO NOT USE THIS SCRIPT UNLESS U CAN DEBUGG AND FIND WORK AROUND IF
+CAUTION: DO NOT USE THIS SCRIPT UNLESS U CAN DEBUG AND FIND WORK AROUND IF
 SHIT HAPPEN. THIS SCRIPT IS TESTED ONCE SO FAR, AND UNLESS FURTHER TESTS ARE
 DONE, THIS CAUTION WILL BE HERE.
 
@@ -70,6 +70,6 @@ for improvement please fork the repo add changes to make it better and create
 pull request.
 
 ## Issues
-- Workaround to add custom archlinux mirrolist don't work, manual intervaention is needed.
+- Workaround to add custom archlinux mirrolist don't work, manual intervention is needed.
 - In `<archsetup.sh>` yay installation requires password everytime.
 - Multiple code are duplicated unnecessarily.
