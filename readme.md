@@ -50,10 +50,10 @@ sh /archiso.sh
 5. Run archsetup.sh
 
 When the first script is done, it will charoot into archlinux installation,
-source /etc/archsetup.sh and run the script in two parts, first to setup host
+source /archsetup.sh and run the script in two parts, first to setup host
 env and key packages from the official repo, and second to setup user env.
 After the first one is done, it will change from root to $USERNAME. After that
-run source /etc/archsetup.sh and run main2
+run source /archsetup.sh and run main2
 
 ```
 source /archsetup.sh; main1
@@ -68,3 +68,8 @@ The script has many shortcoming, I would advice that you review it and change
 it if you are familiar with bash script, with that being said, if you find room
 for improvement please fork the repo add changes to make it better and create
 pull request.
+
+## Issues
+- Workaround to add custom archlinux mirrolist don't work, manual intervaention is needed.
+- In `<archsetup.sh>` yay installation requires password everytime.
+- Multiple code are duplicated unnecessarily.
