@@ -41,8 +41,8 @@ main () {
     sudo su -s "$0"
     exit
   fi
-# FormatTarget   # 1 :: Format Target Partition
-# PrepareEnv     # 2 :: Prep for Arch installation
+  FormatTarget   # 1 :: Format Target Partition
+  PrepareEnv     # 2 :: Prep for Arch installation
   CopyOver       # 3 :: Copy the script file over
   /tmp/root.x86_64/bin/arch-chroot /tmp/root.x86_64/
 }
